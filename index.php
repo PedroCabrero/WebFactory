@@ -8,10 +8,10 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="fonts/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/arriba.js"></script>
 </head>
 <body>
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-   	<script src="js/arriba.js"></script>
    	<span class="ir-arriba icon-arrow_upward"></span>
 	<section class="menu col-xs-12">
 		<?php include("includes/menu.php"); ?>

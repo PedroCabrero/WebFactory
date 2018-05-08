@@ -156,8 +156,8 @@ input{
 	color:#fff;
 	cursor:pointer;
 	position: fixed;
-	bottom:20px;
-	right:20px;
+	bottom:2%;
+	right:2%;
 	border-radius: 50px;
 	opacity: .5;
 	z-index: 10;
