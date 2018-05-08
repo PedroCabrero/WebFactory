@@ -16,20 +16,14 @@ p::selection {
 nav{
 	width: 100%;
 }
-.menu{
-	width: 100%;
-	padding-top:10px; 
-	height: 70px;
-	background-color: #0c1133;
-	position: fixed;
-	z-index: 5;
-}
+
 li{
 	text-align: center;
 	float: left;
 	font-size: 1.5em;
 	display: inline;
 	width: 20%;
+	transition: 0.3s;
 }
 li a{
 	color: #FFFFFF;
@@ -43,6 +37,24 @@ li a:focus {
 	color: #FFFFFF;
 	text-decoration: none;
 }
+footer{
+	background-color: #0c1133;
+}
+footer p{
+	text-align: center;
+	color: #FFFFFF;
+	width: 50%;
+	padding: 5px;
+}
+input{
+	border-radius: 3px;
+}
+.btn{					/*Clase de botones*/
+	transition: 0.3s;	/*Efecto de transicion en botones*/
+}
+.btn:hover{					/*Clase de botones, propiedades cuando se pasa por encima*/
+ 	transform: scale(1.2);	/*Efecto de escala, lo hace mas grande*/
+ }
 .logo{
 	height: 100%;
 	width: 100%;
@@ -63,9 +75,15 @@ li a:focus {
     -o-background-size: cover;
     background-size: cover;
 }
-#titles{
-	text-align: center;
+.menu{
+	width: 100%;
+	padding-top:10px; 
+	height: 70px;
+	background-color: #0c1133;
+	position: fixed;
+	z-index: 5;
 }
+
 .who{
 
 	height: auto;
@@ -111,12 +129,7 @@ li a:focus {
 .textimg{
 	height: auto;
 }
-input{
-	border-radius: 3px;
-}
-#form{
-	margin-bottom: 15px;
-}
+
 .mapa {
 
     position: relative;
@@ -134,13 +147,7 @@ input{
 	height: 100%;
 	padding-left: 5%;
 }
-footer{
-	background-color: #0c1133;
-}
-footer p{
-	text-align: center;
-	color: #FFFFFF;
-}
+
 .ir-arriba {
 	display:none;
 	padding:20px;
@@ -154,6 +161,12 @@ footer p{
 	border-radius: 50px;
 	opacity: .5;
 	z-index: 10;
+}
+#titles{
+	text-align: center;
+}
+#form{
+	margin-bottom: 15px;
 }
 @media screen and (max-width: 1060px) {
 	li{
