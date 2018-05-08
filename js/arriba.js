@@ -3,7 +3,7 @@ $(document).ready(function(){
 	//$('p').slideDown(1500); los despliega en cuanto se carga la página
 	$('.ir-arriba').click(function(){ //ir-arriba es le nombre de la clase
 		$('body,php').animate({
-			scrollTop: '0px'//ScrollTop nos desplaza al inicio de la pagina con una velocidad de 600ms
+					scrollTop: '0px'//ScrollTop nos desplaza al inicio de la pagina con una velocidad de 600ms
 		},300);
 	});
 	$(window).scroll(function(){	//funcion para hacer aparecer el boton

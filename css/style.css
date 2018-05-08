@@ -22,7 +22,7 @@ nav{
 	height: 70px;
 	background-color: #0c1133;
 	position: fixed;
-	z-index: 50;
+	z-index: 5;
 }
 li{
 	text-align: center;
@@ -140,19 +140,6 @@ footer{
 footer p{
 	text-align: center;
 	color: #FFFFFF;
-}
-CSS
-
-.ir-arriba {
-	display:none;
-	padding:20px;
-	background:#024959;
-	font-size:20px;
-	color:#fff;
-	cursor:pointer;
-	position: fixed;
-	bottom:20px;
-	right:20px;
 }
 .ir-arriba {
 	display:none;

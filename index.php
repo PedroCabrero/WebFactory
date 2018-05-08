@@ -10,10 +10,7 @@
 	<link rel="stylesheet" href="fonts/style.css">
 </head>
 <body>
-	<script
-			  src="https://code.jquery.com/jquery-3.3.1.js"
-			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-			  crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
    	<script src="js/arriba.js"></script>
    	<span class="ir-arriba icon-arrow_upward"></span>
 	<section class="menu col-xs-12">
