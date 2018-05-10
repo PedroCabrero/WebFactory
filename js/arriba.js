@@ -1,5 +1,5 @@
 // JavaScript Document
-$(window).ready(function(){
+/*$(window).ready(function(){
 	//$('p').slideDown(1500); los despliega en cuanto se carga la página
 	$('.ir-arriba').click(function(){ //ir-arriba es le nombre de la clase
 		$('body,php').animate({
@@ -22,5 +22,22 @@ $(window).ready(function(){
 	$("img").mouseleave(function(){
 		$(this).fadeTo("fast",1);
 	}); //	Script para hacer tansparentes las imagenes mientras el cursor esta en ellas.
-});
+});*/
+    
+    $(document).ready(function(){
+  
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.ir-arriba').fadeIn();
+            } else {
+                $('.ir-arriba').fadeOut();
+            }
+        });
+  
+        $('.ir-arriba').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+  
+    });
 
