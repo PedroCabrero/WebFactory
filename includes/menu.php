@@ -3,7 +3,7 @@
 <nav class="nav">
 	<ul>
 		<li>
-			<div class="logo">&nbsp hello</div>
+			<img src="images/Webfactory/Logo _WebFactory_Blanco.png" alt="Logo Web Factory">
 		</li>
 		<li>
 			<a href="#Inicio">Inicio</a>

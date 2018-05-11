@@ -49,6 +49,11 @@ footer p{
 input{
 	border-radius: 3px;
 }
+img{
+	background-color: #0c1133;
+	width: 50%;
+		
+}
 .btn{					/*Clase de botones*/
 	transition: 0.3s;	/*Efecto de transicion en botones*/
 }
@@ -58,7 +63,7 @@ input{
 .logo{
 	height: 100%;
 	width: 100%;
-	background-image: url(../images/WebFactory/Logo_WebFactory_Azul.png);
+	background-image:url(../images/WebFactory/Logo WebFactory Azul icono.png);
 	display:inline-block;
 }
 .Inicio{
