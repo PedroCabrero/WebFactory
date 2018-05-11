@@ -61,7 +61,7 @@ input{
 	background-image: url(../images/WebFactory/Logo_WebFactory_Azul.png);
 	display:inline-block;
 }
-.pinicio{
+.Inicio{
 	padding-top: 70px;
 }
 .imagen_i{
@@ -151,7 +151,7 @@ input{
 .ir-arriba {
 	display:none;
 	padding:20px;
-	background:#BFBFBF;
+	background:#0c1133;
 	font-size:20px;
 	color:#fff;
 	cursor:pointer;
@@ -159,7 +159,7 @@ input{
 	bottom:2%;
 	right:2%;
 	border-radius: 50px;
-	opacity: .5;
+	opacity: .7;
 	z-index: 10;
 }
 #titles{

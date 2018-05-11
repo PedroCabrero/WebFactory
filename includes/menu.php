@@ -1,12 +1,12 @@
 <script src="js/arriba.js"></script>
 
-<nav>
+<nav class="nav">
 	<ul>
 		<li>
 			<div class="logo">&nbsp hello</div>
 		</li>
 		<li>
-			<a href="index">Inicio</a>
+			<a href="#Inicio">Inicio</a>
 		</li>
 		<li>
 			<a href="historia">Quienes somos</a>

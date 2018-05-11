@@ -10,14 +10,16 @@
 	<link rel="stylesheet" href="fonts/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="js/arriba.js"></script>
+	<script src="jquery.localscroll.js" type="text/javascript"></script> 
+	<script src="jquery.scrollTo.js" type="text/javascript"></script>
 </head>
 <body>
    	<span class="ir-arriba icon-arrow_upward"></span>
 	<section class="menu col-xs-12">
 		<?php include("includes/menu.php"); ?>
 	</section>
-	<section class="pinicio">
-		<a name="inicio"></a><h2 id="titles"> INICIO</h2>
+	<a name="Inicio"></a><section class="Inicio">
+		<h2 id="titles"> INICIO</h2>
 		<article>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, possimus minus, quaerat deserunt odio accusamus voluptas aliquam hic cupiditate veritatis asperiores facilis commodi sit itaque perferendis quis ipsa esse odit sapiente at sequi sunt ipsum beatae dolore. Consequatur quo deleniti in, voluptates aliquid. Qui fuga eaque pariatur architecto officia et quisquam quibusdam, facere laboriosam nisi reprehenderit hic atque, doloremque quam dignissimos. Debitis aliquid quaerat asperiores quibusdam error perspiciatis quo quis. Omnis vero excepturi itaque praesentium eveniet enim maiores, modi repudiandae expedita eaque eligendi voluptatibus voluptatem architecto totam! Velit consectetur, at commodi a voluptatum fugiat necessitatibus quae, harum. Dolor, dicta, fugiat.

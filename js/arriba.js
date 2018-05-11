@@ -1,19 +1,21 @@
 // JavaScript Document
 /*$(window).ready(function(){
 	//$('p').slideDown(1500); los despliega en cuanto se carga la página
-	$('.ir-arriba').click(function(){ //ir-arriba es le nombre de la clase
-		$('body,php').animate({
-					scrollTop:'0px'//ScrollTop nos desplaza al inicio de la pagina con una velocidad de 600ms
-		},100);
-	});
+
 
 	$(window).scroll(function(){	//funcion para hacer aparecer el boton
-		if( $(this).scrollTop()>0){ 	//Si esta en el top se esconde con una velocidad d e300ms
-			$('.ir-arriba').slideDown(300);
+		if( $(this).scrollTop() > 100 ){ 	//Si esta en el top se esconde con una velocidad d e300ms
+			$('.ir-arriba').slideUp(300);
 		}
 		else{
-			$('.ir-arriba').slideUp(300); //Si no, aparece con la misma velocidad
+			$('.ir-arriba').slideDown(300); //Si no, aparece con la misma velocidad
 		}
+	});
+		
+		$('.ir-arriba').click(function(){ //ir-arriba es le nombre de la clase
+		$("html,body").animate({
+					scrollTop:'0px'//ScrollTop nos desplaza al inicio de la pagina con una velocidad de 600ms
+		},100);
 	});
 		
 	$("img").mouseenter(function(){	//Si el mouse esta sobre una imagen
@@ -24,7 +26,7 @@
 	}); //	Script para hacer tansparentes las imagenes mientras el cursor esta en ellas.
 });*/
     
-    $(document).ready(function(){
+   $(document).ready(function(){
   
         $(window).scroll(function(){
             if ($(this).scrollTop() > 100) {
@@ -38,6 +40,7 @@
             $("html, body").animate({ scrollTop: 0 }, 600);
             return false;
         });
-  
+        $('.nav').localScroll({duration:800});
+
     });
 
