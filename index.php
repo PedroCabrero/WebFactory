@@ -36,7 +36,7 @@
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur eius esse adipisci, tenetur, corporis voluptate. Similique voluptatem nulla doloribus laboriosam magni esse unde nisi veritatis officiis atque consequuntur placeat dicta qui, rem dignissimos veniam blanditiis enim tempora doloremque illo architecto nesciunt quos. Officia, illum, necessitatibus modi obcaecati inventore repudiandae dicta vitae excepturi ipsum debitis quidem nemo. Cumque illo, aliquam provident qui dolore asperiores mollitia placeat culpa eius deserunt porro cum, autem voluptatum commodi, laudantium atque repellat doloribus necessitatibus alias ipsa at blanditiis dignissimos. Rerum cum error, unde pariatur totam ipsam! Voluptatem velit ipsam voluptatum labore nesciunt deserunt provident, fugiat qui!
 		</p>
 	</section>
-	<section class="us">
+	<a name ="historia"></a><section class="us">
 		<a name="quienes"></a><h2 id="titles">Sobre Nosotros</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea similique error reiciendis omnis, voluptas delectus magni alias quam recusandae perferendis dolorum iste voluptatibus dolore fugit rem maiores vel tempora, debitis officiis, eaque, laboriosam nemo ipsa? Iusto facilis ducimus, eum nisi fuga mollitia quibusdam ut voluptate necessitatibus ipsam rem voluptatem, magnam laboriosam sit ratione odit expedita? Quaerat voluptatem similique necessitatibus fuga dolores tempora ea minus atque, doloremque, quasi quam harum fugit soluta nulla molestiae excepturi praesentium, placeat laboriosam earum facilis voluptatum exercitationem! Deserunt quae enim ea, odit, fuga illum itaque fugiat magnam totam distinctio! Magnam earum consequatur quia nihil reiciendis eligendi doloribus optio dolorum. Pariatur aspernatur delectus praesentium voluptatum, quam vero, incidunt exercitationem odit qui dolorem ipsam cupiditate consequatur, dolore expedita temporibus fugiat debitis eos harum quisquam. Cum at animi nobis, porro, molestiae dolorum in blanditiis pariatur facere iure, autem commodi ullam. Optio inventore blanditiis repellendus eum? Beatae voluptates vitae, harum dignissimos possimus architecto corporis at! Eaque reiciendis aperiam vero eius repellendus ullam, sapiente quidem dolorum! Dignissimos aliquam reprehenderit deleniti saepe distinctio et laboriosam accusamus consequuntur minima rerum, sint, odit eligendi beatae est officiis veniam sed debitis nesciunt, explicabo nobis neque voluptas suscipit. Animi aliquid, blanditiis optio dolorem voluptatem eligendi aliquam vitae molestiae ut nam quo, magnam sapiente dolor repellendus tempora, deleniti perferendis, corporis fuga? A quasi tempora voluptatem quaerat possimus eveniet quibusdam porro minima error vitae, nemo deleniti sint tenetur veniam aspernatur earum necessitatibus aperiam eius libero alias ipsum voluptas commodi, delectus eligendi accusantium? Autem quae placeat voluptate veniam, voluptas!</p>
 		<div class="who">
@@ -47,7 +47,7 @@
 			</article>
 		</div>
 	</section>
-	<section class="services">
+	<a name="servicios"></a><section class="services">
 		<a name="servicios"></a> <h2 id="titles" class="col-sm-12">Nuestros Servicios</h2>
 		<div class="row">
 		<article class="col-md-6 col-xs-12 contorno">
@@ -74,8 +74,8 @@
 		</article>
 		</div>
 	</section>
-	<section class="contact">
-		<a name="contacto"></a><h2 id="titles">Contacto</h2>
+	<a name="contacto"></a><section class="contact">
+		<h2 id="titles">Contacto</h2>
 		<article>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi laboriosam esse iure quia eveniet aspernatur expedita, optio doloremque incidunt sed illo consequuntur ullam. Maxime quibusdam, blanditiis ullam vero veniam soluta. Deserunt ut, quasi officia ab blanditiis autem eaque velit veritatis nam dolor dolorem sapiente pariatur accusantium facilis fuga suscipit quod. Laborum ipsum illo aliquam omnis molestias, eveniet ab quam nihil suscipit accusantium! Quibusdam ducimus ipsum consequuntur, veritatis hic beatae molestiae. Non, laudantium quasi at, blanditiis esse dolorum facilis totam dolore natus et eius officia assumenda saepe officiis alias repellat, voluptas illo reiciendis enim consectetur corporis. Quia saepe maiores quis corporis, architecto laborum temporibus, optio voluptate, dicta ipsum quibusdam nostrum error. At ab vitae perferendis doloribus culpa! Molestias sapiente quisquam maxime temporibus porro quis provident ipsum earum doloremque corporis tempore illo similique tenetur obcaecati repudiandae, quibusdam exercitationem deleniti esse sunt labore, fugit ad doloribus voluptatibus eum! Enim, totam asperiores nisi beatae!</p>
 		</article>
