@@ -80,7 +80,10 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi laboriosam esse iure quia eveniet aspernatur expedita, optio doloremque incidunt sed illo consequuntur ullam. Maxime quibusdam, blanditiis ullam vero veniam soluta. Deserunt ut, quasi officia ab blanditiis autem eaque velit veritatis nam dolor dolorem sapiente pariatur accusantium facilis fuga suscipit quod. Laborum ipsum illo aliquam omnis molestias, eveniet ab quam nihil suscipit accusantium! Quibusdam ducimus ipsum consequuntur, veritatis hic beatae molestiae. Non, laudantium quasi at, blanditiis esse dolorum facilis totam dolore natus et eius officia assumenda saepe officiis alias repellat, voluptas illo reiciendis enim consectetur corporis. Quia saepe maiores quis corporis, architecto laborum temporibus, optio voluptate, dicta ipsum quibusdam nostrum error. At ab vitae perferendis doloribus culpa! Molestias sapiente quisquam maxime temporibus porro quis provident ipsum earum doloremque corporis tempore illo similique tenetur obcaecati repudiandae, quibusdam exercitationem deleniti esse sunt labore, fugit ad doloribus voluptatibus eum! Enim, totam asperiores nisi beatae!</p>
 		</article>
 	</section>
+	<section class="form">
 	<?php include("includes/form.php");?>
+	</section>
+	<section class="footer"></section>
 	<?php include("includes/footer.php");?>
 </body>
 </html>
