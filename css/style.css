@@ -8,6 +8,7 @@ p{
 	text-align: justify;
 	margin-left: 2px;
 	font:inherit;
+	font-family: 'Raleway', sans-serif;
 }
 p::selection {
 	background: #000000;
@@ -60,8 +61,7 @@ img{
  }
 .logo{
 	height: 100%;
-	width: 100%;
-	background-image:url(../images/WebFactory/Logo WebFactory Azul icono.png);
+	width: 50%;
 	display:inline-block;
 }
 .Inicio{
@@ -95,10 +95,7 @@ img{
 	height: auto;
 }
 .whoim{
-	height: 100%;
-
 	background-image: url(../images/s5.jpg);
-	display: inline-block;
 }
 .whotxt{
 	float: right;
@@ -187,4 +184,9 @@ img{
 	li{
 		font-size: 1em;
 	}	
+}
+@media screen and(max-width:500px){
+	.logo{
+		width: 100%;
+	}
 }
