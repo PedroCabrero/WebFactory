@@ -9,13 +9,13 @@
 			<a href="#Inicio">Inicio</a>
 		</li>
 		<li>
-			<a href="#historia">Quienes somos</a>
+			<a href="#Servicios">Servicios</a>
 		</li>
 		<li>
-			<a href="#servicios">Servicios</a>
+			<a href="#Nosotros">Nosotros</a>
 		</li>
 		<li>
-			<a href="#contacto">Contacto</a>
+			<a href="#Contacto">Contacto</a>
 		</li>
 	</ul> 
 </nav>
