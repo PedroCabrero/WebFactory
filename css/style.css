@@ -94,7 +94,7 @@ img{
 }
 
 .who{
-
+	width: 100%;
 	height: auto;
 }
 .whoim{
@@ -169,18 +169,13 @@ img{
 	z-index: 10;
 }
 .form{
-	width: 100%;
+	width: 50%;
 	background-color: #0c1133;
 	border-radius: 5px;
-	border-color: #000000;
+	border-color: #FFFFFF;
 }
 #titles{
 	text-align: center;
-}
-#form{
-	width: 100%;
-	margin-bottom: 15px;
-	background-color: #FFFFFF;
 }
 
 @media screen and (max-width: 1060px) {

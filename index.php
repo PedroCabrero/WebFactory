@@ -13,7 +13,9 @@
 	<script src="jquery.localscroll.js" type="text/javascript"></script> 
 	<script src="jquery.scrollTo.js" type="text/javascript"></script>
 </head>
+<!-- Inicio del body-->
 <body>
+
    	<span class="ir-arriba icon-arrow_upward"></span>
 	<section class="menu col-xs-12">
 		<?php include("includes/menu.php"); ?>
@@ -64,14 +66,21 @@
 		</article>
 		</div>
 	</div>
+	<!-- Sección de contacto -->
 	<a name="Contacto"></a><section class="contact ">
 		<h2 id="titles">Contacto</h2>
 		<article>
 			<p class ="contact">Dejanos tu información en el formulario de abajo y nos pondremos en contacto contigo o bien, escribenos un correo a hola@webfactory.com.mx y te responderemos a la brevedad posible.</p>
 		</article>
 	</section>
+	<!-- Fin de sección de contacto -->
+	<!-- Formulario-->
 	<?php include("includes/form.php");?>
-	<section class="footer"></section>
-	<?php include("includes/footer.php");?>
+	<!-- Inicio de seccion del footer-->
+	<section class="footer">
+	<?php include("includes/footer.php");?>		
+	</section>
+	<!-- Fin de sección de footer-->
 </body>
+<!-- Final del body -->
 </html>
