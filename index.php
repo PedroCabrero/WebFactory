@@ -48,14 +48,14 @@
 			<p class="textimg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo mollitia repudiandae deserunt cumque voluptas modi earum debitis iusto eos. Fuga sint qui, fugiat eum architecto itaque animi impedit, necessitatibus ducimus ad maiores mollitia rem quidem asperiores. Magnam assumenda debitis, vero illum eos cum ipsum nostrum, deleniti ipsam eligendi doloremque labore.</p>
 		</article>
 		<article class="col-md-6 col-xs-12 contorno">
-			<section class="s2"></section>
+			<section class="s11"></section>
 			<h4 id="titles">Hosting de dominios.</h4>
 			<p class="textimg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta sequi possimus culpa praesentium vero iure perferendis reiciendis consequuntur ea quos accusamus, hic recusandae magnam illo, voluptates incidunt laborum deserunt est labore blanditiis ut tenetur! Aliquam culpa ex voluptatum nulla iste laboriosam corporis, esse ratione suscipit, sit quaerat animi, nam maxime?</p>			
 		</article>
 		</div>
 		<div class="row">
 		<article class="col-md-6 col-xs-12 contorno">
-			<section class="s3"></section>
+			<section class="s10"></section>
 			<h4 id="titles">Respaldo de sitio web.</h4>
 			<p class="textimg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, ducimus. Dicta doloribus ea, doloremque, ullam inventore veritatis reprehenderit expedita deserunt perspiciatis officiis similique blanditiis consequatur et maxime nostrum deleniti sint ratione, voluptatum corporis laudantium nulla vero accusamus eius? Deserunt obcaecati delectus earum commodi quos unde quibusdam! Voluptatibus magni voluptatum, itaque!</p>			
 		</article>

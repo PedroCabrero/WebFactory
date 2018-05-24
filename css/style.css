@@ -18,7 +18,9 @@ p.contact{
 	text-align: center;
 }
 
-
+ul{
+	padding-bottom: 1.5%;
+}
 li{
 	text-align: center;
 	float: left;
@@ -74,7 +76,7 @@ img{
 	width: 100%;
 	height: 400px;
 	background-image:url(../images/water.jpg);
-	background-attachment: fixed;
+
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -98,7 +100,13 @@ img{
 	height: auto;
 }
 .whoim{
-	background-image: url(../images/s5.jpg);
+	background-image: url(../images/Maquetación_Web.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .whotxt{
 	float: right;
@@ -111,7 +119,7 @@ img{
 	margin-right: 5%;
 	margin-bottom: 5%;
 }
-.s1, .s2, .s3, .s4, .whoim{
+.s1, .s11, .s10, .s4, .whoim{
 	height: 300px;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -121,16 +129,16 @@ img{
 
 }
 .s1{
-	background-image: url(../images/s1.jpg);
+	background-image: url(../images/Axure_RP_7.jpg);
 }
-.s2{
-	background-image: url(../images/s2.jpg);
+.s11{
+	background-image: url(../images/s11.jpg);
 }
-.s3 {
-	background-image: url(../images/s3.jpg);
+.s10 {
+	background-image: url(../images/s10.jpg);
 }
 .s4{
-	background-image: url(../images/s4.jpg);
+	background-image: url(../images/Marketing_medicion_trafico.jpg);
 }
 .textimg{
 	height: auto;
