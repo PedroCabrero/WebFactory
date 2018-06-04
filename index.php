@@ -28,19 +28,16 @@
 		</article>
 	</section>
 	<div class="services">
-		<a name="Servicios"></a><h2 id="titles">Servicios</h2>
-		<ul>
-			<li>Servicio uno</li>
-			<li>Servicio 2</li>
-			<li>Servicio 3</li>
-		</ul>
+		<a name="Servicios"></a><h2 id="titles">Sobre Nosotros</h2>
 		<div class="who">
-			<section class="whoim"></section>			
+			<section class="whoim">
+				<P>prueba</P>
+			</section>			
 		</div>
 	</div>
 	<a name="quienes"></a>
 	<div class="services">
-		<a name="historia"></a> <h2 id="titles" class="col-sm-12">Sobre Nosotros</h2>
+		<a name="historia"></a> <h2 id="titles" class="col-sm-12">Servicios</h2>
 		<div class="row">
 		<article class="col-md-6 col-xs-12" >
 			<section class="s1"></section>
@@ -70,7 +67,7 @@
 	<a name="Contacto"></a><section class="contact ">
 		<h2 id="titles">Contacto</h2>
 		<article>
-			<p class ="contact">Dejanos tu información en el formulario de abajo y nos pondremos en contacto contigo o bien, escribenos un correo a hola@webfactory.com.mx y te responderemos a la brevedad posible.</p>
+			
 		</article>
 	</section>
 	<!-- Fin de sección de contacto -->
