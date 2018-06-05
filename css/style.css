@@ -8,15 +8,19 @@ p{
 	text-align: justify;
 	margin-left: 2px;
 	font:inherit;
+	font-family: 'Raleway', sans-serif;
 }
 p::selection {
 	background: #000000;
 	color:#FFFFFF;
 }
-nav{
-	width: 100%;
+p.contact{
+	text-align: center;
 }
 
+ul{
+	padding-bottom: 1.5%;
+}
 li{
 	text-align: center;
 	float: left;
@@ -49,6 +53,11 @@ footer p{
 input{
 	border-radius: 3px;
 }
+img{
+	background-color: #0c1133;
+	width: 50%;
+		
+}
 .btn{					/*Clase de botones*/
 	transition: 0.3s;	/*Efecto de transicion en botones*/
 }
@@ -57,18 +66,17 @@ input{
  }
 .logo{
 	height: 100%;
-	width: 100%;
-	background-image: url(../images/WebFactory/Logo_WebFactory_Azul.png);
+	width: 50%;
 	display:inline-block;
 }
-.pinicio{
+.Inicio{
 	padding-top: 70px;
 }
-.imagen_i{
+.top_banner{
 	width: 100%;
 	height: 400px;
 	background-image:url(../images/water.jpg);
-	background-attachment: fixed;
+
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -83,16 +91,22 @@ input{
 	position: fixed;
 	z-index: 5;
 }
+.nav{
+	width: 100%;
+}
 
 .who{
-
+	width: 100%;
 	height: auto;
 }
 .whoim{
-	height: 100%;
-
-	background-image: url(../images/s5.jpg);
-	display: inline-block;
+	background-image: url(../images/Maquetación_Web.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .whotxt{
 	float: right;
@@ -105,26 +119,26 @@ input{
 	margin-right: 5%;
 	margin-bottom: 5%;
 }
-.s1, .s2, .s3, .s4, .whoim{
+.s1, .s11, .s10, .s4, .whoim{
 	height: 300px;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    border-radius: 5px;
+
 }
 .s1{
-	background-image: url(../images/s1.jpg);
+	background-image: url(../images/Axure_RP_7.jpg);
 }
-.s2{
-	background-image: url(../images/s2.jpg);
+.s11{
+	background-image: url(../images/s11.jpg);
 }
-.s3 {
-	background-image: url(../images/s3.jpg);
+.s10 {
+	background-image: url(../images/s10.jpg);
 }
 .s4{
-	background-image: url(../images/s4.jpg);
+	background-image: url(../images/Marketing_medicion_trafico.jpg);
 }
 .textimg{
 	height: auto;
@@ -151,7 +165,7 @@ input{
 .ir-arriba {
 	display:none;
 	padding:20px;
-	background:#BFBFBF;
+	background:#0c1133;
 	font-size:20px;
 	color:#fff;
 	cursor:pointer;
@@ -159,17 +173,26 @@ input{
 	bottom:2%;
 	right:2%;
 	border-radius: 50px;
-	opacity: .5;
+	opacity: .7;
 	z-index: 10;
+}
+.form{
+	width: 50%;
+	background-color: #0c1133;
+	border-radius: 5px;
+	border-color: #FFFFFF;
 }
 #titles{
 	text-align: center;
 }
-#form{
-	margin-bottom: 15px;
-}
+
 @media screen and (max-width: 1060px) {
 	li{
 		font-size: 1em;
 	}	
+}
+@media screen and(max-width:500px){
+	.logo{
+		width: 100%;
+	}
 }
