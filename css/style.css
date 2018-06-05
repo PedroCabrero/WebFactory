@@ -1,8 +1,60 @@
 *{
 	/*font-family: 'Open Sans', sans-serif;*/
 }
-section{
-	
+footer{
+	background-color: #0c1133;
+}
+footer p{
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 5%;
+}
+footer img{
+	padding-top: 5%;
+}
+ form{
+	background-color: #0c1133;
+	border-width:1px; 
+	border-radius: 5px;
+	border-color: #FFFFFF;
+	float:none;
+	margin-bottom: 1%;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	text-align: center;
+}
+form p{
+	text-align: center;
+	color:#FFFFFF;
+}
+
+input{
+	background-color: #0c1133;
+	border-radius: 3px;
+	color: #FFFFFF;
+}
+img{
+	background-color: #0c1133;
+	width: 50%;		
+}
+li{
+	text-align: center;
+	float: left;
+	font-size: 1.5em;
+	display: inline;
+	width: 20%;
+	transition: 0.3s;
+}
+li a{
+	color: #FFFFFF;
+}
+li a:hover {
+	color: #BFBFBF;
+	text-decoration: none;
+}
+li a:focus {
+	color: #FFFFFF;
+	text-decoration: none;
 }
 p{
 	text-align: justify;
@@ -21,67 +73,54 @@ p.contact{
 ul{
 	padding-bottom: 1.5%;
 }
-li{
-	text-align: center;
-	float: left;
-	font-size: 1.5em;
-	display: inline;
-	width: 20%;
-	transition: 0.3s;
-}
-li a{
-	color: #FFFFFF;
 
-}
-li a:hover {
-	color: #BFBFBF;
-	text-decoration: none;
-}
-li a:focus {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-footer{
-	background-color: #0c1133;
-}
-footer p{
-	text-align: center;
-	color: #FFFFFF;
-	width: 50%;
-	padding: 5px;
-}
-input{
-	border-radius: 3px;
-}
-img{
-	background-color: #0c1133;
-	width: 50%;
-		
-}
 .btn{					/*Clase de botones*/
 	transition: 0.3s;	/*Efecto de transicion en botones*/
 }
 .btn:hover{					/*Clase de botones, propiedades cuando se pasa por encima*/
  	transform: scale(1.2);	/*Efecto de escala, lo hace mas grande*/
  }
+ .form{
+ 	float:none;
+ }
+.Inicio{
+	padding-top: 70px;
+}
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#0c1133;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:2%;
+	right:2%;
+	border-radius: 50px;
+	opacity: .7;
+	z-index: 10;
+}
 .logo{
 	height: 100%;
 	width: 50%;
 	display:inline-block;
 }
-.Inicio{
-	padding-top: 70px;
-}
-.top_banner{
-	width: 100%;
-	height: 400px;
-	background-image:url(../images/water.jpg);
+.mapa {
 
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 5px;
+    border-radius:5px;
+}
+.mapa iframe {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 90%;
+	height: 100%;
+	padding-left: 5%;
 }
 .menu{
 	width: 100%;
@@ -94,7 +133,47 @@ img{
 .nav{
 	width: 100%;
 }
+.row{
+	height: 420px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+}
+.s1, .s11, .s10, .s4, .whoim{
+	height: 300px;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.s1{
+	background-image: url(../images/Axure_RP_7.jpg);
+}
+.s11{
+	background-image: url(../images/s11.jpg);
+}
+.s10 {
+	background-image: url(../images/s10.jpg);
+}
+.s4{
+	background-image: url(../images/Marketing_medicion_trafico.jpg);
+}
+.textimg{
+	height: auto;
+}
 
+.top_banner{
+	width: 100%;
+	height: 400px;
+	background-image:url(../images/water.jpg);
+
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .who{
 	width: 100%;
 	height: auto;
@@ -113,75 +192,7 @@ img{
 
 	display: inline;
 }
-.row{
-	height: 420px;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-bottom: 5%;
-}
-.s1, .s11, .s10, .s4, .whoim{
-	height: 300px;
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 
-}
-.s1{
-	background-image: url(../images/Axure_RP_7.jpg);
-}
-.s11{
-	background-image: url(../images/s11.jpg);
-}
-.s10 {
-	background-image: url(../images/s10.jpg);
-}
-.s4{
-	background-image: url(../images/Marketing_medicion_trafico.jpg);
-}
-.textimg{
-	height: auto;
-}
-
-.mapa {
-
-    position: relative;
-    padding-bottom: 50%;
-    height: 0;
-    overflow: hidden;
-    margin-bottom: 5px;
-    border-radius:5px;
-}
-.mapa iframe {
-	position: absolute;
-	top:0;
-	left: 0;
-	width: 90%;
-	height: 100%;
-	padding-left: 5%;
-}
-
-.ir-arriba {
-	display:none;
-	padding:20px;
-	background:#0c1133;
-	font-size:20px;
-	color:#fff;
-	cursor:pointer;
-	position: fixed;
-	bottom:2%;
-	right:2%;
-	border-radius: 50px;
-	opacity: .7;
-	z-index: 10;
-}
-.form{
-	width: 50%;
-	background-color: #0c1133;
-	border-radius: 5px;
-	border-color: #FFFFFF;
-}
 #titles{
 	text-align: center;
 }

@@ -42,37 +42,33 @@
 		<article class="col-md-6 col-xs-12" >
 			<section class="s1"></section>
 			<h4 id="titles">Tecnología de punta.</h4>
-			<p class="textimg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo mollitia repudiandae deserunt cumque voluptas modi earum debitis iusto eos. Fuga sint qui, fugiat eum architecto itaque animi impedit, necessitatibus ducimus ad maiores mollitia rem quidem asperiores. Magnam assumenda debitis, vero illum eos cum ipsum nostrum, deleniti ipsam eligendi doloremque labore.</p>
+			<p class="textimg">Contamos con los mejores frameworks para el maquetado y desarrollo de sus páginas, de manera que siempre estará sobre las ultimas tendencias.</p>
 		</article>
 		<article class="col-md-6 col-xs-12 contorno">
 			<section class="s11"></section>
 			<h4 id="titles">Hosting de dominios.</h4>
-			<p class="textimg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta sequi possimus culpa praesentium vero iure perferendis reiciendis consequuntur ea quos accusamus, hic recusandae magnam illo, voluptates incidunt laborum deserunt est labore blanditiis ut tenetur! Aliquam culpa ex voluptatum nulla iste laboriosam corporis, esse ratione suscipit, sit quaerat animi, nam maxime?</p>			
+			<p class="textimg">Contamos con uno de los mejores sitios de hosting de dominios para garantizar rapidez y seguridad de su página web.</p>			
 		</article>
 		</div>
 		<div class="row">
 		<article class="col-md-6 col-xs-12 contorno">
 			<section class="s10"></section>
 			<h4 id="titles">Respaldo de sitio web.</h4>
-			<p class="textimg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, ducimus. Dicta doloribus ea, doloremque, ullam inventore veritatis reprehenderit expedita deserunt perspiciatis officiis similique blanditiis consequatur et maxime nostrum deleniti sint ratione, voluptatum corporis laudantium nulla vero accusamus eius? Deserunt obcaecati delectus earum commodi quos unde quibusdam! Voluptatibus magni voluptatum, itaque!</p>			
+			<p class="textimg">Con el servico de respaldo automatico ya no hay porque preocuparse por nuestro sitio, siempre habrá una copia de nuestra página.</p>			
 		</article>
 		<article class="col-md-6 col-xs-12 contorno">
 			<section class="s4"></section>
 			<h4 id="titles">Marketing Digital.</h4>
-			<p class="textimg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dignissimos, culpa praesentium sit doloribus iste vitae voluptates totam ab dolor autem molestias, quia quisquam similique assumenda, voluptatibus, cum quibusdam tempora eius commodi. Dolorum distinctio quisquam magnam beatae, eaque asperiores, architecto inventore non alias molestiae aut qui unde, veritatis quam minus.</p>			
+			<p class="textimg">Con nuestro servicio de marketing digital, pocisione su página dentro de los primeros lugares en internet para que sus clientes siempre lo encuentren antes que a algun otro.</p>			
 		</article>
 		</div>
 	</div>
 	<!-- Sección de contacto -->
-	<a name="Contacto"></a><section class="contact ">
-		<h2 id="titles">Contacto</h2>
-		<article>
-			
-		</article>
-	</section>
-	<!-- Fin de sección de contacto -->
+	<a name="Contacto"></a>
+	<h2 id="titles">Contacto</h2>
 	<!-- Formulario-->
 	<?php include("includes/form.php");?>
+	<!-- Fin de sección de contacto -->
 	<!-- Inicio de seccion del footer-->
 	<section class="footer">
 	<?php include("includes/footer.php");?>		
